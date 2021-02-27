@@ -28,13 +28,13 @@
 	}
 }
 
-.Notes {
+.Title {
 	width: 100%;
 	height: 100%;
 	display: block;
 }
 
-.Notes .Label {
+.Title .Label {
 	transition: color 0.15s, font-size 0.25s;
 	color: #EEE2DC;
 	font-size: 4em;
@@ -47,6 +47,7 @@
     background: #123C69;
     float: left;
     overflow: hidden;
+	font-weight: 700;
 }
 
 .Info .Content {
@@ -68,11 +69,11 @@
 	position: relative;
 }
 
-.English:hover .Label { color: #123C69; }
-.English:hover .Fill { height: 100%; }
+.Species:hover .Label { color: #123C69; }
+.Species:hover .Fill { height: 100%; }
 
-.French:hover .Label { color: #123C69; }
-.French:hover .Fill { height: 100%; }
+.Spells:hover .Label { color: #123C69; }
+.Spells:hover .Fill { height: 100%; }
 
 .Science:hover .Label { color: #123C69; }
 .Science:hover .Fill { height: 100%; }
@@ -81,8 +82,8 @@
 .Math:hover .Fill { height: 100%; }
 
 
-.Info .English .Fill { background: #a6e2eb; }
-.Info .French .Fill { background: #FFE400; }
+.Info .Species .Fill { background: #a6e2eb; }
+.Info .Spells .Fill { background: #FFE400; }
 .Info .Science .Fill { background: #FF652F; }
 .Info .Math .Fill { background: #14A76C; }
 
@@ -96,7 +97,7 @@
 	position: absolute;
 }
 
-.English{
+.Species{
 	color: #a6e2eb;
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
@@ -105,7 +106,7 @@
 	position: relative;
 }
 
-.French{
+.Spells{
 	color: #FFE400;
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
