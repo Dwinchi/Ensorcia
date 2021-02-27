@@ -1,0 +1,25 @@
+body {
+	background: #EEE2DC;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	color: #AC3B61;
+	text-align: left;
+}
+
+p {
+	color: #123C69;
+}
+
+ul {
+	color: #123C69;
+}
+
+a {
+	text-decoration: none;
+}
