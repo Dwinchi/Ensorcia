@@ -76,17 +76,17 @@
 .Spells:hover .Label { color: #123C69; }
 .Spells:hover .Fill { height: 100%; }
 
-.Science:hover .Label { color: #123C69; }
-.Science:hover .Fill { height: 100%; }
+.Characters:hover .Label { color: #123C69; }
+.Characters:hover .Fill { height: 100%; }
 
-.Math:hover .Label { color: #123C69; }
-.Math:hover .Fill { height: 100%; }
+.Lore:hover .Label { color: #123C69; }
+.Lore:hover .Fill { height: 100%; }
 
 
 .Info .Species .Fill { background: #a6e2eb; }
 .Info .Spells .Fill { background: #FFE400; }
-.Info .Science .Fill { background: #FF652F; }
-.Info .Math .Fill { background: #14A76C; }
+.Info .Characters .Fill { background: #FF652F; }
+.Info .Lore .Fill { background: #14A76C; }
 
 .Fill {
     left: 0;
@@ -117,7 +117,7 @@
 }
 
 
-.Science{
+.Characters{
 	color: #FF652F;
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
@@ -126,7 +126,7 @@
 	position: relative;
 }
 
-.Math{
+.Lore{
 	color: #14A76C;
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
