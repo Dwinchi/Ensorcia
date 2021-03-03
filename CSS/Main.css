@@ -6,7 +6,10 @@ body {
 	font-family: 'Lato';
 }
 
-h1 { color: #AC3B61; }
+h1 {
+	color: #AC3B61; 
+	font-size: 1.8 em;
+}
 
 h2 { color: #AC3B61; }
 

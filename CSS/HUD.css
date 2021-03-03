@@ -102,7 +102,6 @@
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
 	height: 100%;
-	display: block;
 	position: relative;
 }
 
@@ -111,7 +110,6 @@
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
 	height: 100%;
-	display: block;
 	position: relative;
 }
 
@@ -121,7 +119,6 @@
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
 	height: 100%;
-	display: block;
 	position: relative;
 }
 
@@ -130,6 +127,5 @@
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
 	height: 100%;
-	display: block;
 	position: relative;
 }
