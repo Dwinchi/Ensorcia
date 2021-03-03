@@ -8,14 +8,20 @@ body {
 
 h1 {
 	color: #AC3B61; 
-	font-size: 1.8 em;
+	font-size: 1.8em;
 }
 
-h2 { color: #AC3B61; }
+h2 {
+	color: #AC3B61;
+	font-size: 1.5em;
+}
 
 h5 { color: #123C69; }
 
-p { color: #123C69; }
+p {
+	color: #123C69;
+	font-size: 0.875em;
+}
 
 ul { color: #123C69; }
 
