@@ -97,17 +97,35 @@
 	position: absolute;
 }
 
-.Button {
+.Species{
+	color: #a6e2eb;
+	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
 	height: 100%;
-	display: block;
 	position: relative;
 }
 
-.Species{ color: #a6e2eb; }
+.Spells{
+	color: #FFE400;
+	transition: color 0.15s, font-size 0.25s;
+	padding: 10px;
+	height: 100%;
+	position: relative;
+}
 
-.Spells{ color: #FFE400; }
 
-.Characters{ color: #FF652F; }
+.Characters{
+	color: #FF652F;
+	transition: color 0.15s, font-size 0.25s;
+	padding: 10px;
+	height: 100%;
+	position: relative;
+}
 
-.Lore{ color: #14A76C; }
+.Lore{
+	color: #14A76C;
+	transition: color 0.15s, font-size 0.25s;
+	padding: 10px;
+	height: 100%;
+	position: relative;
+}
