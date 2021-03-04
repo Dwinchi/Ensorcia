@@ -8,8 +8,8 @@
 	}
 
 	.Info .Content {
+		margin: 0;
 		padding: 40px;
-		display: block;
 		text-align: center;
 	}
 
@@ -17,20 +17,9 @@
 		position: static;
 		background: #EEE2DC;
 		width: calc(50% + 400px);
+		float: right;
 		height: 100%;
 	}
-
-	.Main .Content {
-		padding: 40px;
-		background: #EEE2DC;
-	}
-	
-	.Info .Content {
-	padding: 40px;
-	display: block;
-	text-align: center;
-	overflow: hidden;
-}
 }
 
 .Title {
@@ -55,9 +44,14 @@
 }
 
 .Info .Content {
-	padding: 40px;
+	margin: 16px;
 	display: block;
 	overflow: hidden;
+}
+
+.Main .Content {
+	margin: 16px;
+	background: #EEE2DC;
 }
 
 .Buttons {
