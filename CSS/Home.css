@@ -76,18 +76,8 @@ a { text-decoration: none; }
 	position: relative;
 }
 
-.Species:hover .Label { color: #123C69; }
-.Species:hover .Fill { height: 100%; }
-
-.Spells:hover .Label { color: #123C69; }
-.Spells:hover .Fill { height: 100%; }
-
-.Characters:hover .Label { color: #123C69; }
-.Characters:hover .Fill { height: 100%; }
-
-.Lore:hover .Label { color: #123C69; }
-.Lore:hover .Fill { height: 100%; }
-
+.Button:hover .Label { color: #123C69; }
+.Button:hover .Fill { height: 100%; }
 
 .Species .Fill { background: #a6e2eb; }
 .Spells .Fill { background: #FFE400; }
@@ -107,13 +97,11 @@ a { text-decoration: none; }
 	transition: color 0.15s, font-size 0.25s;
 	padding: 10px;
 	height: 100%;
+	display: inline-block;
 	position: relative;
 }
 
 .Species{ color: #a6e2eb; }
-
 .Spells{ color: #FFE400; }
-
 .Characters{ color: #FF652F; }
-
 .Lore{ color: #14A76C; }
