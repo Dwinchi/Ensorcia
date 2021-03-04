@@ -50,7 +50,8 @@
 }
 
 .Main .Content {
-	margin: 16px;
+	margin: 0px 16px;
+	padding-top: 40px;
 	background: #EEE2DC;
 }
 
