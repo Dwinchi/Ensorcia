@@ -23,7 +23,7 @@
 	
 	.Title .Label {
 		color: #EEE2DC;
-		font-size: 4em;
+		font-size: 4em !important;
 	}
 }
 
