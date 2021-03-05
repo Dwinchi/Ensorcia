@@ -104,3 +104,5 @@
 .Characters{ color: #FF652F; }
 
 .Lore{ color: #14A76C; }
+
+.Label { transition: color 0.15s; }
