@@ -25,9 +25,25 @@
 		color: #EEE2DC;
 		font-size: 4em !important;
 	}
+	
+	.Buttons {
+		font-size: 1.4em;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	
+	.Button {
+		padding: 10px;
+		display: block;
+	}
+	
+	.Button .Label { display: inherit !important; }
+	.Button .Fill { display: inherit !important; }
 }
 
-.Title { display: block; }
+.Title { display: inline-block; }
 
 .Title .Label {
 	color: #EEE2DC;
@@ -36,7 +52,7 @@
 
 .Info {
     width: 100%;
-    height: 12vw;
+    height: 40px;
     max-height: 70px;
     background: #123C69;
     overflow: hidden;
@@ -47,6 +63,7 @@
 	display: block;
 	overflow: hidden;
 	margin-left: 6px;
+	height: 40px;
 }
 
 .Main .Content {
@@ -55,11 +72,8 @@
 }
 
 .Buttons {
-	font-size: 1.4em;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding-left: 20%;
-	padding-right: 20%;
+	
+	display: inline-block;
 }
 
 .Species:hover .Label { color: #123C69; }
@@ -91,10 +105,11 @@
 }
 
 .Button {
-	padding: 10px;
 	height: 100%;
-	display: block;
 	position: relative;
+	box-sizing: border-box;
+	white-space: nowrap;
+	display: inline-block;
 }
 
 .Species{ color: #a6e2eb; }
@@ -105,10 +120,19 @@
 
 .Lore{ color: #14A76C; }
 
-.Label { transition: color 0.15s; }
+.Label {
+	z-index: 10;
+	position: relative;
+	transition: color 0.15s;
+}
 
 .Button img {
-	position: relative;
-	height: 100%;
+	position: absolute;
+	height: 40px;
 	display: inline-block;
+	width: 40px;
+	top: calc(50% - 30px);
 }
+
+.Button .Label { display: none; }
+.Button .Fill { display: none; }
