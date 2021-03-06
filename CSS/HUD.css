@@ -106,3 +106,9 @@
 .Lore{ color: #14A76C; }
 
 .Label { transition: color 0.15s; }
+
+.Button img {
+	position: relative;
+	height: 100%;
+	display: inline-block;
+}
