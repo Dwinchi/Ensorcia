@@ -11,7 +11,7 @@
 	}
 
 	.Info .Content {
-		padding: 40px;
+		padding-top: 40px;
 		text-align: center;
 	}
 
@@ -34,8 +34,6 @@
 		font-size: 1.4em;
 		font-weight: bold;
 		text-transform: uppercase;
-		padding-left: 20%;
-		padding-right: 20%;
 	}
 	
 	.Button {
@@ -50,6 +48,11 @@
 		display: inline-block;
 		vertical-align: middle;
 	}
+	
+	.Button img {
+		vertical-align: middle;
+	}
+	
 	.Button .Fill { display: inherit !important; }
 	
 	.Species:hover .Label { color: #123C69; }
