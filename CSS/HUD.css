@@ -11,7 +11,7 @@
 	}
 
 	.Info .Content {
-		padding: 40px;
+		padding-top: 40px;
 		text-align: center;
 	}
 
@@ -72,13 +72,7 @@
 
 @media (max-width: 960px)
 {
-	.Title {
-		display: inline-block;
-		height: 40px;
-		top: calc(50% - 30px);
-		position: relative;
-		margin-right: 16px;
-	}
+	.Title { display: inline-block; height: 40px;top: calc(50% - 30px);position: relative;}
 
 	.Title .Label {
 		color: #EEE2DC;
@@ -155,6 +149,8 @@
 	height: 40px;
 	display: inline;
 	width: 40px;
+	top: calc(50% - 20px);
+	vertical-align: middle;
 }
 
 .Buttons { display: inline-block; }
