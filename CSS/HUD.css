@@ -164,3 +164,5 @@
 .Link:hover, Link:active, Link:focus {
 	color: #f3b333;
 }
+
+.Link { color: #AC3B61; }
