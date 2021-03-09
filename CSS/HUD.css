@@ -160,3 +160,7 @@
 }
 
 .Buttons { display: inline-block; }
+
+.Link:hover, Link:active, Link:focus {
+	color: #f3b333;
+}
