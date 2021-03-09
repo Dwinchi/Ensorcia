@@ -10,15 +10,23 @@ h1 {
 	color: #AC3B61; 
 	font-size: 1.8em;
 	border-bottom: 1px solid #BAB5B2;
+	font-weight: 400;
+	font-family: 'Montserrat';
 }
 
 h2 {
 	color: #AC3B61;
 	font-size: 1.5em;
 	border-bottom: 1px solid #BAB5B2;
+	font-weight: 400;
+	font-family: 'Montserrat';
 }
 
-h3 { color: #AC3B61; }
+h3 {
+	color: #AC3B61;
+	font-weight: 700;
+	font-family: 'Montserrat';
+}
 
 h5 { color: #123C69; }
 
