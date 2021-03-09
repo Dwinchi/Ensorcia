@@ -12,6 +12,7 @@ h1 {
 	border-bottom: 1px solid #BAB5B2;
 	font-weight: 400;
 	font-family: 'Montserrat';
+	font-stretch: italic;
 }
 
 h2 {
@@ -20,6 +21,7 @@ h2 {
 	border-bottom: 1px solid #BAB5B2;
 	font-weight: 400;
 	font-family: 'Montserrat';
+	font-stretch: italic;
 }
 
 h3 {
