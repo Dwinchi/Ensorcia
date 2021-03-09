@@ -166,3 +166,20 @@
 }
 
 .Link { color: #AC3B61; }
+
+.ToC {
+	display: table;
+	padding: 7px;
+	border: 1px solid #BAB5B2;
+	background-color: #e8d7cf;
+}
+
+.ToC ul {
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0;
+}
+.ToC ul ul { margin: 0 0 0 2em; }
+.ToCNumber { padding-right: 0.5em; }
+.ToCText { text-decoration: inherit; }
+.ToCHeader { text-align: center; }
