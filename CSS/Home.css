@@ -57,7 +57,7 @@ a { text-decoration: none; }
 	top: calc(50% - 50px);
 	left: 50%;
 	transform: translate(-50%,-50%);
-	padding: 5%;
+	padding: 4%;
 	box-shadow: rgba(0, 0, 0, 0.25) 0 0 32px;
 	background: #123C69;
 	box-sizing: border-box;
