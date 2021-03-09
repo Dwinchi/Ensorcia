@@ -37,6 +37,8 @@ p {
 	font-size: 100%;
 }
 
-ul { color: #123C69; }
+ul {
+	color: #123C69;
+}
 
 a { text-decoration: none; }
