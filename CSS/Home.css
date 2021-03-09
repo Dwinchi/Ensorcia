@@ -74,6 +74,7 @@ a { text-decoration: none; }
 .Label {
 	transition: color 0.15s, font-size 0.25s;
 	position: relative;
+	vertical-align: middle;
 }
 
 .Button:hover .Label { color: #123C69; }
@@ -105,3 +106,10 @@ a { text-decoration: none; }
 .Spells{ color: #FFE400; }
 .Characters{ color: #FF652F; }
 .Lore{ color: #14A76C; }
+
+.Button img {
+	position: relative;
+height: 40px;
+display: inline;
+vertical-align: middle;
+}
