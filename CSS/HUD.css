@@ -180,6 +180,17 @@
 	padding: 0;
 }
 .ToC ul ul { margin: 0 0 0 2em; }
-.ToCNumber { padding-right: 0.5em; }
-.ToCText { text-decoration: inherit; }
-.ToCHeader { text-align: center; }
+.ToCNumber {
+	color: #123C69;
+	text-decoration: none;
+	padding-right: 0.5em;
+}
+.ToCText {
+	color: #123C69;
+	text-decoration: none;
+}
+.ToCHeader {
+	text-align: center;
+	color: #123C69;
+	font-weight: 700;
+}
