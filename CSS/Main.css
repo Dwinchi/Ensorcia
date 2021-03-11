@@ -8,7 +8,6 @@ body {
 
 h1 {
 	color: #AC3B61; 
-	font-size: 1.8em;
 	border-bottom: 1px solid #BAB5B2;
 	font-weight: 400;
 	font-family: 'Montserrat';
@@ -17,7 +16,6 @@ h1 {
 
 h2 {
 	color: #AC3B61;
-	font-size: 1.5em;
 	border-bottom: 1px solid #BAB5B2;
 	font-weight: 400;
 	font-family: 'Montserrat';

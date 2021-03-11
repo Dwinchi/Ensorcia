@@ -165,7 +165,10 @@
 	color: #f3b333;
 }
 
-.Link { color: #AC3B61; }
+.Link {
+	color: #AC3B61;
+	font-weight: 700;
+}
 
 .ToC {
 	display: table;
