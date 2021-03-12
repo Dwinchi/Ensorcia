@@ -26,6 +26,13 @@ h3 {
 	color: #AC3B61;
 	font-weight: 700;
 	font-family: 'Montserrat';
+	font-style: italic;
+}
+
+h4 {
+	color: #AC3B61;
+	font-weight: 700;
+	font-family: 'Montserrat';
 }
 
 h5 { color: #123C69; }
