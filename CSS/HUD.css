@@ -212,8 +212,7 @@
 /* Style the buttons that are used to open the tab content */
 .tab button {
   display: block;
-  background-color: inherit;
-  color: black;
+  color: #AC3B61;
   padding: 22px 16px;
   width: 100%;
   border: none;
@@ -221,6 +220,9 @@
   text-align: left;
   cursor: pointer;
   transition: 0.3s;
+	font-family: Montserrat;
+	font-size: large;
+	font-weight: 700;
 }
 
 /* Change background color of buttons on hover */
